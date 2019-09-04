@@ -14,13 +14,13 @@ Functionality:
 ------------------------------------------------------
 Unique UserName : I created a method below that will user half of the username from excel and current datetime to ensure username is always unique
 
-  public void Add_UserName(String un) {
+  /*public void Add_UserName(String un) {
         WebDriverWait wait_for_username = new WebDriverWait(driver, 10);
         wait_for_username.until(ExpectedConditions.visibilityOf(UserName));
         Runtime.Timestamp timestamp = new Runtime.Timestamp(System.currentTimeMillis());
         un+="_"+timestamp;
         UserName.clear();
-        UserName.sendKeys(un);
+        UserName.sendKeys(un);*/
 -----------------------------------------------------
 .Clear()
 I user variable/element.clear() as show below to ensure that before we send anything to that field that the field is empty
